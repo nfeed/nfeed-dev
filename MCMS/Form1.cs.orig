@@ -15,13 +15,17 @@ namespace MCMS
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
 
         private void Form1_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 
         }
 =======
->>>>>>> nfeed-dev/master
+            MessageBox.Show("lol");
+            MessageBox.Show("mem");
+        }
+        
+>>>>>>> 5c36f325d415014e1353091b40f50c05f0a5739e
     }
 }
