@@ -18,7 +18,9 @@ namespace MCMS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("lol");
+            MessageBox.Show("mem");
         }
+        
     }
 }
