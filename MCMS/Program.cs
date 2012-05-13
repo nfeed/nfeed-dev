@@ -11,13 +11,29 @@ namespace MCMS
         [STAThread]
         private static void Main(string[] args)
         {
-            if (args[0] == "reset")
+            try
             {
-                System.Threading.Thread.Sleep(1000);
-                Console.WriteLine("Einstellungen wurden zurückgesetzt!");
-                MCMS.Properties.Settings.Default.Reset();
-            }
+                switch (args[0])
+                {
+                    case "reset":
+                        System.Console.WriteLine("Einstellungen wurden zurückgesetzt!");
+                        MCMS.Properties.Settings.Default.Reset();
+                        break;
 
+                    case "test":
+                        System.Console.WriteLine("Test");
+                        System.Console.Out.WriteLine();
+                        break;
+
+                    default:
+
+                        break;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Keine Paramenter übergeben...");
+            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
