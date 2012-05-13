@@ -2952,7 +2952,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+           
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3312,7 +3312,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+            
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3624,8 +3624,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
-            this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+            this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();            
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3901,7 +3900,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+   
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4191,7 +4190,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+            
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4591,7 +4590,7 @@ namespace MCMS.mcmsDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::MCMS.Properties.Settings.Default.mcmsConnectionString;
+           
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
